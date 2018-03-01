@@ -3,36 +3,70 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/style.css">
-        <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/hover-min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <title>Kevin Fernandes - Portfolio</title>
     </head>
     <body>
-        <header class="container">
+        <header class="container py-4">
             <div class="row">
                 <div class="col-12">
                     <nav class="navbar navbar-expand-md navbar-light bg-faded">
-                        <h1 class="navbar-brand ml-auto">Kevin Fernandes</h1>
+                        <div class="navbar-brand">
+                            <img src="img/logo-dark.svg" alt="Tapp-That Apps logo">
+                        </div>
+                        <div class="ml-auto text-right">
+                            <h1 class="nav-title">Kevin Fernandes</h1>
+                            <h2 class="nav-subtitle">UI/UX Ninja</h2>
+                        </div>
                     </nav>
                 </div>
             </div>
         </header>
         <main>
-            <section class="container">
+            <section id="hero" class="container py-4">
                 <div class="row">
                     <div class="col-12">
-                        <img src="" alt="">
+                        <img class="img-fluid mb-4" src="img/stephen-pedersen-187281-unsplash.jpg" srcset="img/stephen-pedersen-187281-unsplash@2x.jpg 2x, img/stephen-pedersen-187281-unsplash@3x.jpg 3x" alt="">
                     </div>
                 </div>
             </section>
+            <section id="featured" class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title mb-5">Featured Work</h2>
+                    </div>
+                </div>
+                <div class="row align-items-end">
+                    <article class="portfolio-item col-12 col-md-4">
+                        <img class="figure-img img-fluid rounded mb-4" src="img/andhika-soreng-399059-unsplash.jpg" srcset="img/andhika-soreng-399059-unsplash@2x.jpg 2x, img/andhika-soreng-399059-unsplash@3x.jpg 3x" alt="">
+                        <h1 class="title mb-4">UberEats Delivery</h1>
+                        <a href="https://github.com/kfernandes29">Take A Ride</a>
+                        <cite class="py-3 d-block">Photo by Andhika Soreng</cite>
+                    </article>
+                    <article class="portfolio-item col-12 col-md-4">
+                        <img class="figure-img img-fluid rounded mb-4" src="img/gemma-evans-182245-unsplash.jpg" srcset="img/gemma-evans-182245-unsplash@2x.jpg 2x, img/gemma-evans-182245-unsplash@3x.jpg 3x" alt="">
+                        <h1 class="title mb-4">Snowy Road</h1>
+                        <a href="https://github.com/kfernandes29">This Won't Take You Very Far</a>
+                        <cite class="py-3 d-block">Photo by Gemma Evans</cite>
+                    </article>
+                    <article class="portfolio-item col-12 col-md-4">
+                        <img class="figure-img img-fluid rounded mb-4" src="img/igor-ovsyannykov-223090-unsplash.jpg" srcset="img/igor-ovsyannykov-223090-unsplash@2x.jpg 2x, img/igor-ovsyannykov-223090-unsplash@3x.jpg 3x" alt="">
+                        <h1 class="title mb-4">PineOranges</h1>
+                        <a class="mb-4" href="https://github.com/kfernandes29">Click This Link To No Where</a>
+                        <cite class="py-3 d-block">Photo by Igor Ovsyannykov</cite>
+                    </article>
+                </div>
+            </section>
         </main>
-        <footer>
+        <footer class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-
+                        <p class="mx-auto text-center text-md-right">Created by Kevin Fernandes &copy 2018</p>
                     </div>
                 </div>
             </div>
