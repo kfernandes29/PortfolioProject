@@ -8,10 +8,12 @@ Clone the repository and open the index.html file in the directory.
 
 * Bootstrap Framework
 * Hover CSS
-* Images taken from [Unsplash](http://unsplash.com)
-...*Alex Perez
-...*Andhika Soreng
-...*Gemma Evans
-...*Igor Ovsyannykov
-...*Justin Luebke
-...*Stephen Pedersen
+
+Images taken from [Unsplash](http://unsplash.com) by:
+
+*Alex Perez
+*Andhika Soreng
+*Gemma Evans
+*Igor Ovsyannykov
+*Justin Luebke
+*Stephen Pedersen
