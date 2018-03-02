@@ -11,9 +11,9 @@ Clone the repository and open the index.html file in the directory.
 
 Images taken from [Unsplash](http://unsplash.com) by:
 
-*Alex Perez
-*Andhika Soreng
-*Gemma Evans
-*Igor Ovsyannykov
-*Justin Luebke
-*Stephen Pedersen
+* Alex Perez
+* Andhika Soreng
+* Gemma Evans
+* Igor Ovsyannykov
+* Justin Luebke
+* Stephen Pedersen
