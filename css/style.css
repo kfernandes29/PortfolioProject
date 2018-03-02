@@ -9,11 +9,12 @@
 
 .nav-title {
     font-size: 28px;
-    font-weight: lighter;
 }
 
 .nav-subtitle {
     font-size: 22px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .navbar-brand>img {
@@ -29,28 +30,21 @@
     font-size: 22px;
 }
 
-.portfolio-item>a {
-    color: #000;
-    padding-bottom: 5px;
-    border-bottom: solid 1px #000;
-    transition: 0.15s all ease;
-}
-
-.portfolio-item>a:hover {
-    text-decoration: none;
-    padding-bottom: 10px;
-}
-
 @media screen and (max-width: 780px) {
 
-    .portfolio-item:not(:last-of-type) {
-        padding-bottom: 0px;
-        margin-bottom: 40px;
+    .nav-title {
+        font-size: 20px;
     }
-    .portfolio-item:not(:last-of-type):after {
-        display: block;
+
+    .nav-subtitle {
+        font-size: 16px;
+    }
+
+    .portfolio-item::not(::last-child):after {
         content: " ";
+        display: block;
         border-bottom: solid 1px #ddd;
+        margin: 40px 0;
     }
 
 }
